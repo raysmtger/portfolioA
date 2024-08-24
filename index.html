@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Currículo </title>
+</head>
+<body>
+    <main>
+        <header class="content-header">
+            <nav>
+                <ul>
+                    <li><a href="#sobre"> Sobre Mim </a></li>
+                    <li><a href="#habilidades"> Habilidades </a></li>
+                    <li><a href="#projetos"> Projetos </a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container">
+            <article class="profile-card">
+                <div class="profile-pic">
+                    <img src="foto2.jpg" alt="Selfie">
+                    <h2>Rayssa Metzger </h2>
+                    <p> metzger.rayssa@gmail.com </p>
+                    <button class="button"> 
+                        <a href="https://github.com/raysmtger"> GitHub </a> 
+                        <a href="https://www.linkedin.com/in/rayssa-m-89b923231"> Linkdin </a>
+                    </button>
+                </div>
+            </article>
+
+            <div id="sobre" class="sobre">
+                <h1>Sobre Mim </h1>
+    
+                <p> Sempre tive interesse em tecnologia. Explorando esse mundo, tive meu primeiro contato com a programação através de vídeos no YouTube e, assim, comecei a cursar Análise e Desenvolvimento de Sistemas, atual graduação na universidade Guairacá. </p>
+                <p> Tenho como futuro objetivo ser desenvolvedora full stack. Estou em busca da primeira expêriencia oficial. </p>
+            </div>
+        </section>
+    </main>
+
+    <div id="habilidades" class="Habilidades">
+        <h1>HABILIDADES</h1>
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="file_type_html_icon_130541.png" alt="HTML Logo" height="100px">
+            </div>
+            <div class="carousel-item">
+                <img src="js2.webp" alt="JavaScript Logo" height="100px">
+            </div>
+            <div class="carousel-item">
+                <img src="icons8-css-48.png" alt="CSS Logo" height="100px">
+            </div>
+            <div class="carousel-item">
+                <img src="267_Python-512.webp" alt="Python Logo" height="100px">
+            </div>
+            <div class="carousel-item">
+                <img src="flutter-logo-5086DD11C5-seeklogo.com.png" alt="Flutter Logo" height="100px">
+            </div>
+        </div>
+        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+    
+        <section id="projetos" class="projeto">
+            <h1 class="projetos-titulo">PROJETOS</h1>
+        
+            <div class="cards">
+                <div class="card">
+                    <h2 class="projeto-titulo">Clínica Veterinária</h2>
+                    <p>Atividade desenvolvida para um trabalho da faculdade. Sua proposta era uma landing page, levando em consideração, criei como se fosse uma clínica veterinária postando informações em sua página.</p>
+                    <button class="button">
+                        <a href="https://github.com/raysmtger/CaracteristicasGatos.git">Saiba mais</a>
+                    </button>
+                </div>
+        
+                <div class="card">
+                    <h2 class="projeto-titulo">EM BREVE</h2>
+                </div>
+            </div>
+        </section>
+
+            <footer class="content-footer">
+                <p>&copy; 2023 - Todos os direitos reservados</p>
+            </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
